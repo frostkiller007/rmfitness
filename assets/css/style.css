@@ -2280,8 +2280,8 @@ hr {
 }
 
 .section-paddingt30 {
-    padding-top: 195px;
-    padding-bottom: 90px
+    padding-top: 100px;
+    padding-bottom: 10px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2466,7 +2466,7 @@ hr {
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .header-area .main-header {
-        padding: 0px 30px
+        padding: 0px 0px
     }
 }
 
@@ -2832,7 +2832,7 @@ hr {
 }
 
 .about-area .about-caption h3 {
-    font-size: 30px;
+    font-size: 40px;
     color: #000a2d;
     font-weight: 700;
     margin-bottom: 35px;
