@@ -146,6 +146,16 @@ h6 {
     text-transform: normal
 }
 
+h7 {
+    font-family: "Rufina", serif;
+    color: #000a2d;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+    font-size: 48px
+}
+
 p {
     font-family: "Rubik", sans-serif;
     color: #10285d;
