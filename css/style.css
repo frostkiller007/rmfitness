@@ -368,7 +368,7 @@ button:focus,
     left: 0px;
     width: 100%;
     height: 8px;
-    background-color: #7a73cc;
+    background-color: #d42a2a;
     bottom: 0;
     z-index: -1;
 }
@@ -3342,10 +3342,10 @@ ul {
     position: absolute;
     content: "";
     left: 3px;
-    width: 50%;
-    height: 1px;
+    width: 43%;
+    height: 8px;
     background-color: rgb(212, 42, 42);
-    bottom: 20px;
+    bottom: 13px;
     z-index: -1;
 }
 
@@ -3364,7 +3364,7 @@ ul {
         left: 0;
         width: 100%;
         height: 10px;
-        background-color: #8782ce;
+        background-color: rgb(212, 42, 42);
         bottom: 8px;
         z-index: -1;
     }
@@ -3385,7 +3385,7 @@ ul {
         left: 0;
         width: 100%;
         height: 10px;
-        background-color: #8782ce;
+        background-color: #d42a2a;
         bottom: 8px;
         z-index: -1;
     }
@@ -3564,7 +3564,7 @@ ul {
     left: 1px;
     width: 99%;
     height: 8px;
-    background-color: #7a73cc;
+    background-color: #d42a2a;
     bottom: 5px;
     z-index: -1;
 }
