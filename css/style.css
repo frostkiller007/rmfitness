@@ -947,7 +947,6 @@ ul {
 .single-blog .tag {
     text-align: left;
     display: inline-block;
-    float: left;
     font-size: 13px;
     font-weight: 300;
     margin-right: 22px;
@@ -3102,6 +3101,12 @@ ul {
 /* line 266, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_menu.scss */
 
 .home_menu_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     left: 0;
