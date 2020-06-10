@@ -620,6 +620,7 @@ ul {
     display: inline-block;
     padding: 18px 50px;
     font-size: 15px;
+    font-family: Rubik, sans-serif;
     color: #fff;
     -webkit-transition: 0.5s;
     transition: 0.5s;
