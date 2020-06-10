@@ -2263,7 +2263,7 @@ ul {
 .main_menu .menu-trigger span {
   display: block;
   height: 2px;
-  background: #1f1b1b;
+  background: white;
   transition: 0.5s;
 }
 
@@ -2520,7 +2520,7 @@ ul {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: black;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
