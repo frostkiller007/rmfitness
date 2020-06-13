@@ -4890,8 +4890,8 @@ h6 {
 .genric-btn {
     display: inline-block;
     outline: none;
-    line-height: 40px;
-    padding: 0 30px;
+    line-height: 60px;
+    padding: 0 40px;
     font-size: .8em;
     text-align: center;
     text-decoration: none;
