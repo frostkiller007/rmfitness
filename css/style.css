@@ -5263,16 +5263,17 @@
             /* line 7, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_footer.scss */
             
             .footer_part .social_icon a {
-                height: 40px;
-                width: 40px;
+                height: 50px;
+                width: 50px;
                 display: inline-block;
                 border-radius: 50%;
-                background-color: #eeeeee;
-                line-height: 40px;
-                color: #fff;
-                margin: 0 5px;
+                background-color: white;
+                line-height: 50px;
+                color: black;
+                margin: 0 10px;
                 -webkit-transition: 0.5s;
                 transition: 0.5s;
+                font-size: 19px;
             }
             /* line 17, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_footer.scss */
             
