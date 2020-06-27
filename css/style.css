@@ -5381,13 +5381,13 @@
             /*# sourceMappingURL=style.css.map */
             
             .steps-entry .step-list::before {
-                height: 66%;
+                height: 54%;
                 width: 1px;
                 content: "";
                 display: block;
                 background: white;
                 position: absolute;
-                left: 5%;
-                top: 150px;
+                left: 5.8%;
+                top: 15%;
                 z-index: 1;
             }
