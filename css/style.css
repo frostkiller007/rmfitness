@@ -5380,7 +5380,7 @@
             }
             /*# sourceMappingURL=style.css.map */
             
-            .steps-entry .step-list::before {
+            /* .steps-entry .step-list::before {
                 height: 54%;
                 width: 1px;
                 content: "";
@@ -5390,4 +5390,4 @@
                 left: 5.8%;
                 top: 15%;
                 z-index: 1;
-            }
+            } */
