@@ -539,7 +539,7 @@
             
             .btn_1 {
                 display: inline-block;
-                padding: 18px 50px;
+                text-align: center;
                 font-size: 15px;
                 font-family: Rubik, sans-serif;
                 color: #fff;
@@ -561,7 +561,7 @@
             @media (max-width: 991px) {
                 /* line 25, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_button.scss */
                 .btn_1 {
-                    padding: 10px 30px;
+                    /* padding: 10px 30px; */
                     margin-top: 30px;
                 }
             }
@@ -569,7 +569,7 @@
             @media only screen and (min-width: 991px) and (max-width: 1200px) {
                 /* line 25, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_button.scss */
                 .btn_1 {
-                    padding: 10px 40px;
+                    /* padding: 10px 40px; */
                 }
             }
             /* line 50, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_button.scss */
@@ -2546,13 +2546,31 @@
             .banner_part {
                 height: 1000px;
                 position: relative;
-                background-image: url(../img/c.png);
+                /* background-image: url(../img/c.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
-                background-position: left bottom;
+                background-position: left bottom; */
                 z-index: 9;
                 overflow: hidden;
+
+                
+
             }
+
+/*            .banner_part::after{
+                content:url("");
+                position:absolute;
+                width:100%;
+                height:100%;
+
+            }*/
+
+            .banner_part > .background_img{
+                position:absolute;
+                z-index:-1;
+                width:100%;
+                }
+
             
             @media (max-width: 575px) {
                 /* line 2, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
@@ -2669,7 +2687,7 @@
             @media (max-width: 575px) {
                 /* line 69, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
                 .banner_part .banner_text {
-                    text-align: center;
+                    text-align: left;
                     padding-top: 0px;
                     height: 700px;
                 }
@@ -2678,7 +2696,7 @@
             @media only screen and (min-width: 576px) and (max-width: 767px) {
                 /* line 69, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
                 .banner_part .banner_text {
-                    text-align: center;
+                    text-align: left;
                     padding-top: 0px;
                     height: 700px;
                 }
@@ -2687,7 +2705,7 @@
             @media only screen and (min-width: 768px) and (max-width: 991px) {
                 /* line 69, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
                 .banner_part .banner_text {
-                    text-align: center;
+                    text-align: left;
                     padding-top: 0px;
                     height: 700px;
                 }
@@ -2794,7 +2812,7 @@
             /* line 171, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
             
             .banner_part .banner_text .btn_1 {
-                padding: 18px 70px;
+                padding: 18px 50px;
             }
             
             @media (max-width: 991px) {
