@@ -5321,7 +5321,7 @@
             
             .breadcrumb_bg {
                 background-image: url("../img/bc.jpg");
-                background-position: center center;
+                background-position: center top;
                 background-repeat: no-repeat;
                 background-size: cover;
             }
