@@ -5313,13 +5313,24 @@
                 color: #d42a2a;
             }
             /* line 1, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_breadcrumb.scss */
-            
+
             .breadcrumb_bg {
                 background-image: url("../img/hori.jpeg");
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
             }
+
+            @media (max-width: 575px) {
+                /* line 21, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_breadcrumb.scss */
+                .breadcrumb_bg {
+                    background-image: url("../img/bc.jpg");
+                    background-position: center top;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+            
             /* line 5, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_breadcrumb.scss */
             
             .breadcrumb {
@@ -5330,6 +5341,13 @@
                 overflow: hidden;
                 background-color: transparent;
             }
+/* 
+            .breadcrumb  > img{
+                position: absolute;
+                z-index: -1;
+                height: 100%;
+                width: 100%;
+            } */
             /* line 12, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_breadcrumb.scss */
             
             .breadcrumb .breadcrumb_iner {
@@ -5347,7 +5365,7 @@
             
             .breadcrumb .breadcrumb_iner .breadcrumb_iner_item h2 {
                 color: #fff;
-                font-size: 100px;
+                font-size: 5em;
                 font-weight: 600;
                 margin-bottom: 10px;
                 text-transform: capitalize;
