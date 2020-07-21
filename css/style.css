@@ -245,6 +245,7 @@
             /* line 170, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_common.scss */
             
             h3 {
+                font-family: "Poppins", sans-serif;
                 font-size: 24px;
                 line-height: 25px;
             }
@@ -252,6 +253,7 @@
             @media (max-width: 575px) {
                 /* line 170, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_common.scss */
                 h3 {
+                    font-family: "Poppins", sans-serif;
                     font-size: 20px;
                 }
             }
@@ -5313,14 +5315,14 @@
                 color: #d42a2a;
             }
             /* line 1, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_breadcrumb.scss */
-
+            
             .breadcrumb_bg {
                 background-image: url("../img/hori.jpeg");
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-
+            
             @media (max-width: 575px) {
                 /* line 21, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_breadcrumb.scss */
                 .breadcrumb_bg {
@@ -5330,7 +5332,6 @@
                     background-size: cover;
                 }
             }
-            
             /* line 5, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_breadcrumb.scss */
             
             .breadcrumb {
@@ -5341,7 +5342,7 @@
                 overflow: hidden;
                 background-color: transparent;
             }
-/* 
+            /* 
             .breadcrumb  > img{
                 position: absolute;
                 z-index: -1;
