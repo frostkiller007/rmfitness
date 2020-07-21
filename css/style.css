@@ -2782,6 +2782,7 @@
                     margin-bottom: 15px;
                     line-height: 1.3;
                     display: inline-block;
+                    font-weight: 300;
                 }
                 /* line 140, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
                 .banner_part .banner_text h3:after {
