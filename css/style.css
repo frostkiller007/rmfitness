@@ -2409,6 +2409,21 @@
                 position: relative;
                 z-index: 1;
             }
+
+            @media (max-width: 575px) {
+                /* line 2, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_banner.scss */
+                .main_menu .off-canven-menu ul li a {
+                    text-transform: uppercase;
+                    font-size: 1.55em;
+                    line-height: 1.8;
+                    color: #1f1b1b;
+                    font-weight: 600;
+                    letter-spacing: -0.12px;
+                    margin: 0px;
+                    position: relative;
+                    z-index: 1;
+                }
+            }
             /* line 177, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_menu.scss */
             
             .main_menu .off-canven-menu ul li a:after {
@@ -5409,6 +5424,13 @@
             
             .breadcrumb {
                 margin-bottom: 0px !important;
+            }
+
+            @media (max-width: 575px) {
+                /* line 21, ../../01 cl html template/03_jun 2019/181_Fitness Trainer_html/sass/_breadcrumb.scss */
+                .step4{
+                    padding-bottom: 1em;
+                }
             }
             /*# sourceMappingURL=style.css.map */
             /* .steps-entry .step-list::before {
