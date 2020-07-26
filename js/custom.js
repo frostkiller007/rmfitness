@@ -37,15 +37,15 @@
     });
   }
   // menu fixed js code
-  $(window).scroll(function () {
-    var window_top = $(window).scrollTop() + 1;
-    if (window_top > 50) {
-      $('.single_page_menu').addClass('menu_fixed animated fadeInDown');
-    } else {
-      $('.single_page_menu').removeClass('menu_fixed animated fadeInDown');
-    }
-  });
-  // menu fixed js code
+  // $(window).scroll(function () {
+  //   var window_top = $(window).scrollTop() + 1;
+  //   if (window_top > -1) {
+  //     $('.single_page_menu').addClass('menu_fixed animated fadeInDown');
+  //   } else {
+  //     $('.single_page_menu').removeClass('menu_fixed animated fadeInDown');
+  //   }
+  // });
+  // // menu fixed js code
   $(window).scroll(function () {
     var window_top = $(window).scrollTop() + 1;
     if (window_top > 50) {
